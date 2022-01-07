@@ -14,11 +14,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
     res.render('home');
-});
-app.get('/news', (req, res) => {
-    res.render('newpag');
-});
-app.get('/home', (req, res) => {
-    res.render('newpag');
+})
+app.get('/home4444', (req, res) => {
+    res.render('newpag')
 });
 app.listen(port);
