@@ -18,4 +18,7 @@ app.get('/', (req, res) => {
 app.get('/news', (req, res) => {
     res.render('newpag');
 });
+app.get('/home', (req, res) => {
+    res.render('newpag');
+});
 app.listen(port);
